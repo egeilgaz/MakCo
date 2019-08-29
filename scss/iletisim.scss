@@ -1,0 +1,42 @@
+.ilt {
+  width: 100%;
+  height: 500px;
+  margin-top: 60px;
+}
+.bas {
+  height: 500px;
+  background: url('https://source.unsplash.com/7zfQ6sbWVyE/1600x900') no-repeat
+    center top/cover;
+}
+.bas h1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-size: 44px;
+}
+.bas p {
+  text-align: center;
+  font-size: 34px;
+  color: rgb(223, 221, 221);
+  text-shadow: 2px -2px 3px #000;
+  margin-top: 20px;
+}
+.alt {
+  height: 440px;
+  width: 40%;
+  display: inline-block;
+  margin-left: 6.3%;
+}
+.alt h1 {
+  width: 60%;
+  border-bottom: dashed thin;
+  margin-left: 20%;
+}
+.alt p {
+  text-align: center;
+  margin-top: 5%;
+}
+.alt a {
+  margin-left: 30%;
+  top: 13px;
+  position: relative;
+}
