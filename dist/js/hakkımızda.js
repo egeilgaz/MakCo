@@ -1,22 +1,20 @@
-$(document).ready(function() {
-  //yukarı çık butonu
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 250) {
-      $('.yukarı').css('opacity', '1');
-    } else {
-      $('.yukarı').css('opacity', '0');
-    }
-  });
+//yukarı çık butonu
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 250) {
+    $('.yukarı').css('opacity', '1');
+  } else {
+    $('.yukarı').css('opacity', '0');
+  }
+});
 
-  $('.yukarı').click(function() {
-    $('html, body').animate(
-      {
-        scrollTop: 0
-      },
-      200
-    );
-    return false;
-  });
+$('.yukarı').click(function() {
+  $('html, body').animate(
+    {
+      scrollTop: 0
+    },
+    200
+  );
+  return false;
 });
 
 //sticky menu
@@ -64,4 +62,3 @@ carouselslide.addEventListener('transitionend', () => {
     carouselslide.style.transform = 'translateX(' + -size * counter + 'px)';
   }
 });
-

@@ -1,0 +1,26 @@
+@include mediaXl {
+}
+
+@include mediaLg {
+  footer h5 {
+    margin-left: 6% !important;
+  }
+}
+
+@include mediaMd {
+  footer h5 {
+    margin-left: 3% !important;
+  }
+}
+
+@include mediaSm {
+  footer {
+    height: auto !important;
+    width: auto !important;
+  }
+  footer h5 {
+    float: none !important;
+    display: block !important;
+    margin-top: 20px;
+  }
+}
