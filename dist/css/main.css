@@ -1,20 +1,65 @@
 @charset "UTF-8";
-@media screen and (min-width: 882px) and (max-width: 1449px) {
-  footer h5 {
-    margin-left: 6% !important; } }
+@media screen and (min-width: 1450px) {
+  .openbtn {
+    display: none; } }
 
-@media screen and (min-width: 769px) and (max-width: 881px) {
+@media screen and (min-width: 1090px) and (max-width: 1449px) {
   footer h5 {
-    margin-left: 3% !important; } }
+    margin-left: 9% !important; }
+  .openbtn {
+    display: none; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 801px) and (max-width: 1089px) {
+  ul.menu2 > li {
+    margin-left: 4% !important; }
+  footer h5 {
+    margin-left: 3.2% !important; }
+  footer {
+    height: 130px !important;
+    width: auto !important; }
+  .buttons button#prev {
+    margin-left: 40% !important;
+    margin-bottom: 50% !important; }
+  .buttons button#next {
+    margin-left: 55% !important; }
+  .openbtn {
+    display: none; } }
+
+@media screen and (max-width: 800px) {
   footer {
     height: auto !important;
     width: auto !important; }
   footer h5 {
     float: none !important;
     display: block !important;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .yukarı {
+    bottom: 30px !important;
+    right: 35px !important;
+    padding: 15px 10px !important; }
+  .buttons button#prev {
+    margin-left: 35% !important; }
+  .buttons button#next {
+    margin-left: 50% !important; }
+  .slide .content p {
+    font-size: 55px !important;
+    margin-bottom: 10px !important; }
+  .slide .content {
+    position: absolute;
+    bottom: 53% !important; }
+  .slide.current .content {
+    transform: translateY(0) !important; }
+  .logo2 img {
+    margin-left: -50px !important; }
+  ul.menu2 > li > a {
+    display: none !important; }
+  header {
+    position: sticky !important; } }
+
+.alt2 i {
+  margin-left: 210px;
+  font-size: 50px;
+  margin-top: 30px; }
 
 .tam {
   width: 100%;
@@ -106,13 +151,13 @@
   position: absolute;
   top: 100%;
   margin-right: 50%;
-  margin-left: 50%; }
+  margin-left: 45%; }
 
 .buttons button#next {
   position: absolute;
   top: 100%;
-  margin-right: 55%;
-  margin-left: 55%; }
+  margin-right: 60%;
+  margin-left: 50%; }
 
 @media (max-width: 700px) {
   .slide .content {
@@ -334,13 +379,21 @@ a {
   border: 0;
   text-decoration: none; }
 
+.openbtn {
+  font-size: 34px;
+  right: 13px;
+  top: 35px;
+  position: absolute;
+  color: black; }
+
 header {
   top: 0px;
   position: relative;
   height: 200px;
   background-color: white;
   width: auto;
-  border: 3px solid black; }
+  border: 3px solid black;
+  z-index: 5; }
 
 .ort {
   top: 50px;
@@ -399,7 +452,7 @@ ul.menu2 ul {
   left: 0;
   visibility: hidden;
   transition: 0.2s all;
-  z-index: 2;
+  z-index: 3;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
 
 ul.menu2 ul li a {
@@ -410,14 +463,16 @@ ul.menu2 ul li a {
   text-decoration: none;
   margin-left: 0;
   text-transform: uppercase;
-  font-size: 13px; }
+  font-size: 13px;
+  z-index: 2; }
 
 ul.menu2 ul li a:hover {
   background-color: #cfcdcd; }
 
 ul.menu2 > li:hover ul {
   visibility: visible;
-  top: 50px; }
+  top: 50px;
+  z-index: 2; }
 
 .sticky {
   position: fixed;
@@ -474,7 +529,7 @@ footer {
 footer h5 {
   float: left;
   display: block;
-  margin-left: 12%;
+  margin-left: 13%;
   text-decoration: none;
   text-transform: uppercase; }
 
@@ -507,3 +562,50 @@ footer a {
 .btn-light {
   background: #c4c4c4;
   color: #252525; }
+
+.closebtnn {
+  position: absolute;
+  font-size: 30px;
+  left: 35px;
+  top: 35px;
+  color: black; }
+
+.overlay {
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 195px;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-color: #474747;
+  overflow-x: hidden;
+  z-index: 5;
+  transition: all 0.5s; }
+
+.mobilemenu {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 55.8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.mobilemenu li {
+  list-style-type: none; }
+
+.mobilemenu li a {
+  padding: 30px;
+  display: block;
+  font-size: 30px;
+  color: #c4c4c4;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000; }
+
+.openbtn {
+  font-size: 31px;
+  left: 7px;
+  top: 75px;
+  position: absolute;
+  color: black; }

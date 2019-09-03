@@ -1,15 +1,38 @@
 @include mediaXl {
+  .openbtn {
+    display: none;
+  }
 }
 
 @include mediaLg {
   footer h5 {
-    margin-left: 6% !important;
+    margin-left: 9% !important;
+  }
+  .openbtn {
+    display: none;
   }
 }
 
 @include mediaMd {
+  ul.menu2 > li {
+    margin-left: 4% !important;
+  }
   footer h5 {
-    margin-left: 3% !important;
+    margin-left: 3.2% !important;
+  }
+  footer {
+    height: 130px !important;
+    width: auto !important;
+  }
+  .buttons button#prev {
+    margin-left: 40% !important;
+    margin-bottom: 50% !important;
+  }
+  .buttons button#next {
+    margin-left: 55% !important;
+  }
+  .openbtn {
+    display: none;
   }
 }
 
@@ -22,5 +45,36 @@
     float: none !important;
     display: block !important;
     margin-top: 20px;
+  }
+  .yukarı {
+    bottom: 30px !important;
+    right: 35px !important;
+    padding: 15px 10px !important;
+  }
+  .buttons button#prev {
+    margin-left: 35% !important;
+  }
+  .buttons button#next {
+    margin-left: 50% !important;
+  }
+  .slide .content p {
+    font-size: 55px !important;
+    margin-bottom: 10px !important;
+  }
+  .slide .content {
+    position: absolute;
+    bottom: 53% !important;
+  }
+  .slide.current .content {
+    transform: translateY(0) !important;
+  }
+  .logo2 img {
+    margin-left: -50px !important;
+  }
+  ul.menu2 > li > a {
+    display: none !important;
+  }
+  header {
+    position: sticky !important;
   }
 }
