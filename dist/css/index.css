@@ -1,7 +1,8 @@
 .alt2 i {
-  margin-left: 210px;
+  left: 33%;
   font-size: 50px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  position: relative; }
 
 .tam {
   width: 100%;

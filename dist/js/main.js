@@ -221,7 +221,7 @@ function toggleMenu() {
   }
 }*/
 function opennav() {
-  document.getElementById('nav').style.height = '600px';
+  document.getElementById('nav').style.height = '500px';
 }
 function closenav() {
   document.getElementById('nav').style.height = '0%';

@@ -6,7 +6,7 @@
 
 @include mediaLg {
   footer h5 {
-    margin-left: 9% !important;
+    margin-left: 9.3% !important;
   }
   .openbtn {
     display: none;
@@ -45,6 +45,7 @@
     float: none !important;
     display: block !important;
     margin-top: 20px;
+    margin-left: 0% !important;
   }
   .yukarı {
     bottom: 30px !important;
@@ -53,9 +54,11 @@
   }
   .buttons button#prev {
     margin-left: 35% !important;
+    top: 95% !important;
   }
   .buttons button#next {
     margin-left: 50% !important;
+    top: 95% !important;
   }
   .slide .content p {
     font-size: 55px !important;
@@ -76,5 +79,6 @@
   }
   header {
     position: sticky !important;
+    height: 155px !important;
   }
 }

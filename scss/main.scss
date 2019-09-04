@@ -34,13 +34,7 @@ a {
   border: 0;
   text-decoration: none;
 }
-.openbtn {
-  font-size: 34px;
-  right: 13px;
-  top: 35px;
-  position: absolute;
-  color: black;
-}
+
 header {
   top: 0px;
   position: relative;
@@ -164,7 +158,7 @@ ul.menu2 > li:hover ul {
   right: 20px;
   background: #000;
   color: #fff;
-  padding: 20px 15px;
+  padding: 10px 15px;
   text-decoration: none;
   z-index: 2;
   opacity: 0;
@@ -227,23 +221,16 @@ footer a {
   background: #c4c4c4;
   color: rgb(37, 37, 37);
 }
-.closebtnn {
-  position: absolute;
-  font-size: 30px;
-  left: 35px;
-  top: 35px;
-  color: black;
-}
 
 .overlay {
   margin: 0;
   padding: 0;
   position: sticky;
-  top: 195px;
+  margin-top: -22px;
   left: 0;
   width: 100%;
   height: 0%;
-  background-color: #474747;
+  background-color: #dadada;
   overflow-x: hidden;
   z-index: 5;
   transition: all 0.5s;
@@ -252,27 +239,36 @@ footer a {
   margin: 0;
   padding: 0;
   position: relative;
-  top: 55.8%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 .mobilemenu li {
   list-style-type: none;
+  margin-bottom: 5px;
 }
 .mobilemenu li a {
-  padding: 30px;
+  padding: 10px;
+  margin-top: 2px;
   display: block;
-  font-size: 30px;
+  font-size: 25px;
   color: #c4c4c4;
   text-transform: uppercase;
-  border-bottom: 1px solid #000;
+  background-color: rgb(92, 92, 92);
 }
 
 .openbtn {
   font-size: 31px;
   left: 7px;
-  top: 75px;
+  top: 39px;
   position: absolute;
+  color: black;
+}
+.closebtnn {
+  position: absolute;
+  font-size: 30px;
+  left: 15px;
+  top: 10px;
   color: black;
 }
