@@ -220,3 +220,9 @@ function toggleMenu() {
     showMenu = false;
   }
 }*/
+function opennav() {
+  document.getElementById('nav').style.height = '600px';
+}
+function closenav() {
+  document.getElementById('nav').style.height = '0%';
+}

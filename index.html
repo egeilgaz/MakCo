@@ -5,26 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>MakCo</title>
   </head>
   <body class="body1" id="top">
     <header>
-        <div class="menu-btn" >
-            <div class="btn-line" ></div><!--menü tuşundaki çizgiler için-->
-            <div class="btn-line" ></div>
-            <div class="btn-line" ></div>
-        </div>
       <div class="ort">
         <div class="logo">
           <div class="logo2"><a href="index.html"><img src="img\logo.jpeg" alt="" /></a></div>
         </div>
       </div>
-      <nav class="menu3">
+      <div class="menu3">
       <ul class="menu2">
         <li class="nav-item" >
           <a href="index.html">ana sayfa</a>
         </li>
-        <li class="nav-item" >
+        <li  >
           <a href="#">menü</a>
           <ul>
             <li><a href="menu.html">makarnalar</a></li>
@@ -44,7 +41,19 @@
           <a href="" id="petit">petit princes</a>
         </li>
       </ul>
-    </nav>
+    </div class='open'>
+    <a href="#" class="openbtn" id="ham" onclick="opennav()">  <i class="fas fa-bars"></i></a>
+    <div id="nav" class="overlay">
+        <a href="#" id="x" class="closebtnn" onclick="closenav()" ><i class="fas fa-times"></i></a>
+        <ul class="mobilemenu">
+          
+            <li><a href="">ana sayfa</a></li>
+            <li><a href="">ürünler</a></li>
+            <li><a href="">hakkımızda</a></li>
+            <li><a href="">iletişim</a></li>
+            <li><a href="">petit</a></li>
+        </ul>
+    </div>
     </header>
     <div class="en">
       <div class="slider2">
@@ -102,8 +111,11 @@
     </div>
     <section class="tam">
       <div class="alt2">
+          <i class="material-icons">
+              restaurant_menu
+              </i>      
         <br /><br />
-        <h1>Ürünlerimiz</h1>
+        <h1>Ürünlerimiz</h1>        
         <br /><br />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
@@ -112,6 +124,9 @@
         <div class="lnk"><a href="menu.html">Menüyü incelemek için ></a></div>
       </div>
       <div class="alt2">
+          <i class="material-icons">
+              restaurant_menu
+              </i>
         <br /><br />
         <h1>Hakkımızda</h1>
         <br /><br />
@@ -122,6 +137,9 @@
         <div class="lnk"><a href="hakkımızda.html">Daha fazla okumak için ></a></div>
       </div>
       <div class="alt2">
+          <i class="material-icons">
+              restaurant_menu
+              </i>
         <br /><br />
         <h1>Iletişim</h1>
         <br /><br />
