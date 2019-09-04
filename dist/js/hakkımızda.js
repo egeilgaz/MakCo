@@ -62,3 +62,10 @@ carouselslide.addEventListener('transitionend', () => {
     carouselslide.style.transform = 'translateX(' + -size * counter + 'px)';
   }
 });
+
+function opennav() {
+  document.getElementById('nav').style.height = '500px';
+}
+function closenav() {
+  document.getElementById('nav').style.height = '0%';
+}

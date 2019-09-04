@@ -13,8 +13,8 @@
   height: 370px;
   width: 25%;
   background-color: #a5a5a5;
-  display: inline-block;
-  margin-left: 6%; }
+  margin-left: 6%;
+  float: left; }
 
 .alt2 h1 {
   width: 60%;
@@ -28,7 +28,19 @@
 .lnk {
   background-color: #465827;
   z-index: 2;
-  margin-top: 35%;
+  margin-top: 90px;
+  height: 80px; }
+
+.lnk2 {
+  background-color: #465827;
+  z-index: 2;
+  margin-top: 90px;
+  height: 80px; }
+
+.lnk3 {
+  background-color: #465827;
+  z-index: 2;
+  margin-top: 90px;
   height: 80px; }
 
 .lnk a {
@@ -40,7 +52,33 @@
   position: relative;
   color: black; }
 
+.lnk2 a {
+  text-decoration: none;
+  font-weight: bold;
+  width: 20%;
+  margin-left: 31%;
+  top: 20%;
+  position: relative;
+  color: black; }
+
+.lnk3 a {
+  text-decoration: none;
+  font-weight: bold;
+  width: 20%;
+  margin-left: 33%;
+  top: 20%;
+  position: relative;
+  color: black; }
+
 .lnk a:hover {
+  color: white;
+  transition: 0.3s all; }
+
+.lnk2 a:hover {
+  color: white;
+  transition: 0.3s all; }
+
+.lnk3 a:hover {
   color: white;
   transition: 0.3s all; }
 

@@ -23,7 +23,23 @@
   .buttons button#next {
     margin-left: 55% !important; }
   .openbtn {
-    display: none; } }
+    display: none; }
+  .tam {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 5px !important;
+    display: grid !important; }
+  .alt2 {
+    height: 400px !important;
+    width: 65% !important;
+    margin-left: 18% !important;
+    margin-top: 4%;
+    margin-bottom: 4%; }
+  .lnk {
+    margin-top: 140px !important;
+    height: 60px !important; }
+  .lnk a {
+    margin-left: 38% !important; } }
 
 @media screen and (max-width: 800px) {
   footer {
@@ -53,12 +69,29 @@
   .slide.current .content {
     transform: translateY(0) !important; }
   .logo2 img {
-    margin-left: -50px !important; }
+    margin-left: -43px !important; }
   ul.menu2 > li > a {
     display: none !important; }
   header {
     position: sticky !important;
-    height: 155px !important; } }
+    height: 155px !important; }
+  .tam {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 5px !important;
+    display: grid !important; }
+  .alt2 {
+    height: 400px !important;
+    width: 65% !important;
+    margin-left: 18% !important;
+    margin-top: 4%;
+    margin-bottom: 15%; }
+  .lnk a {
+    margin-left: 28% !important; }
+  .lnk2 a {
+    margin-left: 27% !important; }
+  .lnk3 a {
+    margin-left: 32% !important; } }
 
 .alt2 i {
   left: 33%;
@@ -75,8 +108,8 @@
   height: 370px;
   width: 25%;
   background-color: #a5a5a5;
-  display: inline-block;
-  margin-left: 6%; }
+  margin-left: 6%;
+  float: left; }
 
 .alt2 h1 {
   width: 60%;
@@ -90,7 +123,19 @@
 .lnk {
   background-color: #465827;
   z-index: 2;
-  margin-top: 35%;
+  margin-top: 90px;
+  height: 80px; }
+
+.lnk2 {
+  background-color: #465827;
+  z-index: 2;
+  margin-top: 90px;
+  height: 80px; }
+
+.lnk3 {
+  background-color: #465827;
+  z-index: 2;
+  margin-top: 90px;
   height: 80px; }
 
 .lnk a {
@@ -102,7 +147,33 @@
   position: relative;
   color: black; }
 
+.lnk2 a {
+  text-decoration: none;
+  font-weight: bold;
+  width: 20%;
+  margin-left: 31%;
+  top: 20%;
+  position: relative;
+  color: black; }
+
+.lnk3 a {
+  text-decoration: none;
+  font-weight: bold;
+  width: 20%;
+  margin-left: 33%;
+  top: 20%;
+  position: relative;
+  color: black; }
+
 .lnk a:hover {
+  color: white;
+  transition: 0.3s all; }
+
+.lnk2 a:hover {
+  color: white;
+  transition: 0.3s all; }
+
+.lnk3 a:hover {
   color: white;
   transition: 0.3s all; }
 
@@ -361,7 +432,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background: #ebebeb; }
+  background: #d1d0d0; }
 
 body h1 {
   text-align: center; }
@@ -420,7 +491,7 @@ header {
 .logo2 img {
   height: 145px;
   width: auto;
-  margin-left: 15px; }
+  margin-left: 40px; }
 
 ul.menu2 {
   margin-top: 120px;

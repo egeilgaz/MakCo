@@ -34,6 +34,26 @@
   .openbtn {
     display: none;
   }
+  .tam {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 5px !important;
+    display: grid !important;
+  }
+  .alt2 {
+    height: 400px !important;
+    width: 65% !important;
+    margin-left: 18% !important;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .lnk {
+    margin-top: 140px !important;
+    height: 60px !important;
+  }
+  .lnk a {
+    margin-left: 38% !important;
+  }
 }
 
 @include mediaSm {
@@ -72,7 +92,7 @@
     transform: translateY(0) !important;
   }
   .logo2 img {
-    margin-left: -50px !important;
+    margin-left: -43px !important;
   }
   ul.menu2 > li > a {
     display: none !important;
@@ -80,5 +100,28 @@
   header {
     position: sticky !important;
     height: 155px !important;
+  }
+  .tam {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 5px !important;
+    display: grid !important;
+  }
+  .alt2 {
+    height: 400px !important;
+    width: 65% !important;
+    margin-left: 18% !important;
+    margin-top: 4%;
+    margin-bottom: 15%;
+  }
+
+  .lnk a {
+    margin-left: 28% !important;
+  }
+  .lnk2 a {
+    margin-left: 27% !important;
+  }
+  .lnk3 a {
+    margin-left: 32% !important;
   }
 }
