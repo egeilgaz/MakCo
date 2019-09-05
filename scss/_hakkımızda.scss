@@ -10,30 +10,38 @@
 }
 .tanıtım > p {
   text-indent: 50px;
-  margin: 0px 0px 0px 300px;
+  margin: 0px 0px 0px 450px;
 }
 .tanıtım h1 {
   text-align: center;
 }
 .tanıtım img {
   float: left;
-  width: 22%;
+  width: 390px;
+}
+.tnt2 img {
+  padding: 0 50px 15px 0;
 }
 .tanıtım2 {
   width: 70%;
-  margin: 0 0 0 15%;
+  margin: 5% 0 5% 15%;
 }
 .tanıtım2 img {
   float: right;
-  width: 22%;
+  width: 390px;
+}
+.tnt3 img {
+  margin: 0 40px 0 50px;
+  padding: 0 50px 15px 0;
 }
 .tanıtım2 h1 {
   text-align: center;
 }
 .tanıtım2 p {
   text-indent: 50px;
-  margin: 0px 300px 0px 0px;
+  margin: 50px 0 0px 0px;
 }
+
 .tanıtım3 {
   width: 70%;
   margin: 0 0 0 15%;
@@ -43,8 +51,7 @@
 }
 .tanıtım3 p {
   text-indent: 50px;
-  width: 1200px;
-  margin-bottom: 5%;
+  margin: 0 0 5% 0;
 }
 .carousel-container {
   width: 77%;

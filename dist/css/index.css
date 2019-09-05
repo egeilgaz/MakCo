@@ -3,7 +3,8 @@
   font-size: 50px;
   margin-top: 30px;
   position: relative;
-  transform: translate(-50%); }
+  transform: translate(-50%);
+  color: darkolivegreen; }
 
 .tam {
   width: 100%;

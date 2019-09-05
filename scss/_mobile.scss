@@ -7,7 +7,7 @@
 @include mediaLg {
   footer h5 {
     margin-left: 9% !important;
-    transform: translate(-9%) !important;
+    transform: translate(-19%) !important;
   }
   .openbtn {
     display: none;
@@ -70,6 +70,8 @@
     height: 300px;
     transform: translate(-45%);
   }
+  //anamenü
+
 }
 
 @include mediaSm {
@@ -81,7 +83,7 @@
     float: none !important;
     display: block !important;
     margin-top: 20px;
-    margin-left: 27% !important;
+    margin-left: 20% !important;
   }
   .yukarı {
     bottom: 30px !important;
@@ -157,4 +159,15 @@
     margin-left: 16% !important;
     width: 70% !important;
   }
+  .tanıtım img {
+    width: 310px !important;
+  }
+  .tanıtım2 img {
+    width: 260px !important;
+  }
+  .tnt3 img {
+    margin: 0 0 15px 0 !important;
+    padding: 0 0 0 0 !important;
+  }
+
 }

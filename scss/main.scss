@@ -137,22 +137,6 @@ ul.menu2 > li:hover ul {
   top: 0;
   transition: all 0.7s ease-in-out 0.3s;
 }
-.sticky img {
-  display: none;
-}
-.sticky .menu-right {
-  transition: all 0.7s;
-  padding-left: 340px;
-}
-.sticky a {
-  color: #000;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 110px;
-}
-
 .yukarı {
   position: fixed;
   bottom: 20px;
@@ -183,7 +167,7 @@ footer h5 {
   float: left;
   display: block;
   margin-left: 13%;
-  transform: translate(-20%);
+  transform: translate(-10%);
   text-decoration: none;
   text-transform: uppercase;
 }
