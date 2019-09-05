@@ -1,8 +1,9 @@
 .alt2 i {
-  left: 33%;
+  left: 50%;
   font-size: 50px;
   margin-top: 30px;
   position: relative;
+  transform: translate(-50%);
 }
 .tam {
   width: 100%;
@@ -177,23 +178,23 @@
 /* Backgorund Images */
 
 .slide:first-child {
-  background: url('https://source.unsplash.com/t8hTmte4O_g/1600x900') no-repeat
+  background: url('https://source.unsplash.com/t8hTmte4O_g/1024x768') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('https://source.unsplash.com/Znvxeud6sDc/1600x900') no-repeat
+  background: url('https://source.unsplash.com/Znvxeud6sDc/1024x768') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('https://source.unsplash.com/AiHJiRCwB3w/1600x900') no-repeat
+  background: url('https://source.unsplash.com/AiHJiRCwB3w/1024x768') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('https://source.unsplash.com/4nXkhLCrkLo/1600x900') no-repeat
+  background: url('https://source.unsplash.com/4nXkhLCrkLo/1024x768') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('https://source.unsplash.com/JDEEsQKEm7I/1600x900') no-repeat
+  background: url('https://source.unsplash.com/JDEEsQKEm7I/1024x768') no-repeat
     center top/cover;
 }
 .slide:nth-child(6) {

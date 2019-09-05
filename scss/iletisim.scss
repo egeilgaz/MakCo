@@ -1,8 +1,3 @@
-.ilt {
-  width: 100%;
-  height: 500px;
-  margin-top: 60px;
-}
 .bas {
   height: 500px;
   background: url('https://source.unsplash.com/7zfQ6sbWVyE/1600x900') no-repeat
@@ -12,6 +7,9 @@
   background-color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
   font-size: 44px;
+  display: inline-block;
+  margin-left: 50%;
+  transform: translate(-50%);
 }
 .bas p {
   text-align: center;
@@ -20,23 +18,46 @@
   text-shadow: 2px -2px 3px #000;
   margin-top: 20px;
 }
-.alt {
-  height: 440px;
-  width: 40%;
-  display: inline-block;
-  margin-left: 6.3%;
-}
-.alt h1 {
-  width: 60%;
-  border-bottom: dashed thin;
-  margin-left: 20%;
-}
-.alt p {
+.endıs {
+  display: block;
   text-align: center;
-  margin-top: 5%;
-}
-.alt a {
-  margin-left: 30%;
-  top: 13px;
   position: relative;
+}
+.dıs {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0;
+  margin-left: 50%;
+  transform: translate(-50%);
+  height: 700px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.kutu {
+  display: inline-block;
+  vertical-align: center;
+  width: 450px;
+  border: 1px solid black;
+  margin: 30px 10px;
+  height: 300px;
+}
+
+.kutu h1 {
+  margin: 0;
+  margin-top: -25px;
+  background-color: rgb(218, 218, 218);
+  margin-left: 75px;
+  width: 300px;
+}
+
+.yazı {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15%;
+}
+.yazı a {
+  color: darkolivegreen;
 }

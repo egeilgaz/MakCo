@@ -5,7 +5,8 @@
 
 @media screen and (min-width: 1090px) and (max-width: 1449px) {
   footer h5 {
-    margin-left: 9.3% !important; }
+    margin-left: 9% !important;
+    transform: translate(-9%) !important; }
   .openbtn {
     display: none; } }
 
@@ -13,13 +14,14 @@
   ul.menu2 > li {
     margin-left: 4% !important; }
   footer h5 {
-    margin-left: 3.2% !important; }
+    margin-left: 3% !important;
+    transform: translate(-3%) !important; }
   footer {
-    height: 130px !important;
+    height: 150px !important;
     width: auto !important; }
   .buttons button#prev {
     margin-left: 40% !important;
-    margin-bottom: 50% !important; }
+    margin-bottom: -50% !important; }
   .buttons button#next {
     margin-left: 55% !important; }
   .openbtn {
@@ -39,7 +41,15 @@
     margin-top: 140px !important;
     height: 60px !important; }
   .lnk a {
-    margin-left: 38% !important; } }
+    margin-left: 38% !important; }
+  .kutu {
+    float: left !important;
+    vertical-align: center;
+    width: 450px;
+    border: 1px solid black;
+    margin: 30px 50% !important;
+    height: 300px;
+    transform: translate(-45%); } }
 
 @media screen and (max-width: 800px) {
   footer {
@@ -49,16 +59,16 @@
     float: none !important;
     display: block !important;
     margin-top: 20px;
-    margin-left: 0% !important; }
+    margin-left: 27% !important; }
   .yukarı {
     bottom: 30px !important;
     right: 35px !important;
     padding: 15px 10px !important; }
   .buttons button#prev {
-    margin-left: 35% !important;
+    margin-left: 37% !important;
     top: 95% !important; }
   .buttons button#next {
-    margin-left: 50% !important;
+    margin-left: 53% !important;
     top: 95% !important; }
   .slide .content p {
     font-size: 55px !important;
@@ -68,8 +78,6 @@
     bottom: 53% !important; }
   .slide.current .content {
     transform: translateY(0) !important; }
-  .logo2 img {
-    margin-left: -43px !important; }
   ul.menu2 > li > a {
     display: none !important; }
   header {
@@ -86,18 +94,36 @@
     margin-left: 18% !important;
     margin-top: 4%;
     margin-bottom: 15%; }
+  .alt2 i {
+    left: 50% !important;
+    transform: translate(-50%) !important; }
   .lnk a {
-    margin-left: 28% !important; }
+    margin-left: 18% !important;
+    transform: translate(-18%) !important; }
   .lnk2 a {
-    margin-left: 27% !important; }
+    margin-left: 18% !important;
+    transform: translate(-18%) !important; }
   .lnk3 a {
-    margin-left: 32% !important; } }
+    margin-left: 26% !important;
+    transform: translate(-26%) !important; }
+  .kutu {
+    float: left !important;
+    vertical-align: center;
+    width: 80% !important;
+    border: 1px solid black;
+    margin: 30px 50% !important;
+    height: 300px;
+    transform: translate(-50%); }
+  .kutu h1 {
+    margin-left: 16% !important;
+    width: 70% !important; } }
 
 .alt2 i {
-  left: 33%;
+  left: 50%;
   font-size: 50px;
   margin-top: 30px;
-  position: relative; }
+  position: relative;
+  transform: translate(-50%); }
 
 .tam {
   width: 100%;
@@ -258,27 +284,22 @@
 
 /* Backgorund Images */
 .slide:first-child {
-  background: url("https://source.unsplash.com/t8hTmte4O_g/1600x900") no-repeat center top/cover; }
+  background: url("https://source.unsplash.com/t8hTmte4O_g/1024x768") no-repeat center top/cover; }
 
 .slide:nth-child(2) {
-  background: url("https://source.unsplash.com/Znvxeud6sDc/1600x900") no-repeat center top/cover; }
+  background: url("https://source.unsplash.com/Znvxeud6sDc/1024x768") no-repeat center top/cover; }
 
 .slide:nth-child(3) {
-  background: url("https://source.unsplash.com/AiHJiRCwB3w/1600x900") no-repeat center top/cover; }
+  background: url("https://source.unsplash.com/AiHJiRCwB3w/1024x768") no-repeat center top/cover; }
 
 .slide:nth-child(4) {
-  background: url("https://source.unsplash.com/4nXkhLCrkLo/1600x900") no-repeat center top/cover; }
+  background: url("https://source.unsplash.com/4nXkhLCrkLo/1024x768") no-repeat center top/cover; }
 
 .slide:nth-child(5) {
-  background: url("https://source.unsplash.com/JDEEsQKEm7I/1600x900") no-repeat center top/cover; }
+  background: url("https://source.unsplash.com/JDEEsQKEm7I/1024x768") no-repeat center top/cover; }
 
 .slide:nth-child(6) {
   background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1600x900") no-repeat center center/cover; }
-
-.ilt {
-  width: 100%;
-  height: 500px;
-  margin-top: 60px; }
 
 .bas {
   height: 500px;
@@ -287,7 +308,10 @@
 .bas h1 {
   background-color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
-  font-size: 44px; }
+  font-size: 44px;
+  display: inline-block;
+  margin-left: 50%;
+  transform: translate(-50%); }
 
 .bas p {
   text-align: center;
@@ -296,25 +320,46 @@
   text-shadow: 2px -2px 3px #000;
   margin-top: 20px; }
 
-.alt {
-  height: 440px;
-  width: 40%;
-  display: inline-block;
-  margin-left: 6.3%; }
-
-.alt h1 {
-  width: 60%;
-  border-bottom: dashed thin;
-  margin-left: 20%; }
-
-.alt p {
+.endıs {
+  display: block;
   text-align: center;
-  margin-top: 5%; }
-
-.alt a {
-  margin-left: 30%;
-  top: 13px;
   position: relative; }
+
+.dıs {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0;
+  margin-left: 50%;
+  transform: translate(-50%);
+  height: 700px;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.kutu {
+  display: inline-block;
+  vertical-align: center;
+  width: 450px;
+  border: 1px solid black;
+  margin: 30px 10px;
+  height: 300px; }
+
+.kutu h1 {
+  margin: 0;
+  margin-top: -25px;
+  background-color: #dadada;
+  margin-left: 75px;
+  width: 300px; }
+
+.yazı {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15%; }
+
+.yazı a {
+  color: darkolivegreen; }
 
 .tanıtım {
   width: 70%;
@@ -432,7 +477,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background: #d1d0d0; }
+  background: #dadada; }
 
 body h1 {
   text-align: center; }
@@ -491,7 +536,8 @@ header {
 .logo2 img {
   height: 145px;
   width: auto;
-  margin-left: 40px; }
+  margin-left: 50%;
+  transform: translate(-50%); }
 
 ul.menu2 {
   margin-top: 120px;
@@ -599,6 +645,7 @@ footer h5 {
   float: left;
   display: block;
   margin-left: 13%;
+  transform: translate(-20%);
   text-decoration: none;
   text-transform: uppercase; }
 

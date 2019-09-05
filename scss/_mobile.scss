@@ -6,7 +6,8 @@
 
 @include mediaLg {
   footer h5 {
-    margin-left: 9.3% !important;
+    margin-left: 9% !important;
+    transform: translate(-9%) !important;
   }
   .openbtn {
     display: none;
@@ -14,26 +15,31 @@
 }
 
 @include mediaMd {
+  //header
   ul.menu2 > li {
     margin-left: 4% !important;
   }
+  //footer
   footer h5 {
-    margin-left: 3.2% !important;
+    margin-left: 3% !important;
+    transform: translate(-3%) !important;
   }
   footer {
-    height: 130px !important;
+    height: 150px !important;
     width: auto !important;
-  }
+  } //slider butonu
   .buttons button#prev {
     margin-left: 40% !important;
-    margin-bottom: 50% !important;
+    margin-bottom: -50% !important;
   }
   .buttons button#next {
     margin-left: 55% !important;
   }
+  //hamburger
   .openbtn {
     display: none;
   }
+  //altaki 3lü
   .tam {
     width: 100% !important;
     height: 100% !important;
@@ -46,13 +52,23 @@
     margin-left: 18% !important;
     margin-top: 4%;
     margin-bottom: 4%;
-  }
+  } //yeşil alanlar
   .lnk {
     margin-top: 140px !important;
     height: 60px !important;
   }
   .lnk a {
     margin-left: 38% !important;
+  }
+  //iletişim
+  .kutu {
+    float: left !important;
+    vertical-align: center;
+    width: 450px;
+    border: 1px solid black;
+    margin: 30px 50% !important;
+    height: 300px;
+    transform: translate(-45%);
   }
 }
 
@@ -65,7 +81,7 @@
     float: none !important;
     display: block !important;
     margin-top: 20px;
-    margin-left: 0% !important;
+    margin-left: 27% !important;
   }
   .yukarı {
     bottom: 30px !important;
@@ -73,11 +89,11 @@
     padding: 15px 10px !important;
   }
   .buttons button#prev {
-    margin-left: 35% !important;
+    margin-left: 37% !important;
     top: 95% !important;
   }
   .buttons button#next {
-    margin-left: 50% !important;
+    margin-left: 53% !important;
     top: 95% !important;
   }
   .slide .content p {
@@ -90,9 +106,6 @@
   }
   .slide.current .content {
     transform: translateY(0) !important;
-  }
-  .logo2 img {
-    margin-left: -43px !important;
   }
   ul.menu2 > li > a {
     display: none !important;
@@ -114,14 +127,34 @@
     margin-top: 4%;
     margin-bottom: 15%;
   }
+  .alt2 i {
+    left: 50% !important;
+    transform: translate(-50%) !important;
+  }
 
   .lnk a {
-    margin-left: 28% !important;
+    margin-left: 18% !important;
+    transform: translate(-18%) !important;
   }
   .lnk2 a {
-    margin-left: 27% !important;
+    margin-left: 18% !important;
+    transform: translate(-18%) !important;
   }
   .lnk3 a {
-    margin-left: 32% !important;
+    margin-left: 26% !important;
+    transform: translate(-26%) !important;
+  }
+  .kutu {
+    float: left !important;
+    vertical-align: center;
+    width: 80% !important;
+    border: 1px solid black;
+    margin: 30px 50% !important;
+    height: 300px;
+    transform: translate(-50%);
+  }
+  .kutu h1 {
+    margin-left: 16% !important;
+    width: 70% !important;
   }
 }
