@@ -4,7 +4,8 @@
   margin-top: 30px;
   position: relative;
   transform: translate(-50%);
-  color: darkolivegreen; }
+  color: darkolivegreen;
+  opacity: 1; }
 
 .tam {
   width: 100%;
@@ -180,4 +181,4 @@
   background: url("https://source.unsplash.com/JDEEsQKEm7I/1024x768") no-repeat center top/cover; }
 
 .slide:nth-child(6) {
-  background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1600x900") no-repeat center center/cover; }
+  background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1024x768") no-repeat center center/cover; }

@@ -1,13 +1,31 @@
 @charset "UTF-8";
 @media screen and (min-width: 1450px) {
   .openbtn {
-    display: none; } }
+    display: none; }
+  .carousel-container2 {
+    display: none; }
+  .slide:first-child {
+    background: url("https://source.unsplash.com/t8hTmte4O_g/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(2) {
+    background: url("https://source.unsplash.com/Znvxeud6sDc/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(3) {
+    background: url("https://source.unsplash.com/AiHJiRCwB3w/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(4) {
+    background: url("https://source.unsplash.com/4nXkhLCrkLo/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(5) {
+    background: url("https://source.unsplash.com/JDEEsQKEm7I/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(6) {
+    background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1600x900") no-repeat center center/cover !important; } }
 
 @media screen and (min-width: 1090px) and (max-width: 1449px) {
   footer h5 {
     margin-left: 9% !important;
     transform: translate(-19%) !important; }
   .openbtn {
+    display: none; }
+  .carousel-container {
+    width: 90% !important; }
+  .carousel-container2 {
     display: none; } }
 
 @media screen and (min-width: 801px) and (max-width: 1089px) {
@@ -42,6 +60,16 @@
     height: 60px !important; }
   .lnk a {
     margin-left: 38% !important; }
+  .lnk2 {
+    margin-top: 140px !important;
+    height: 60px !important; }
+  .lnk2 a {
+    margin-left: 38% !important; }
+  .lnk3 {
+    margin-top: 140px !important;
+    height: 60px !important; }
+  .lnk3 a {
+    margin-left: 38% !important; }
   .kutu {
     float: left !important;
     vertical-align: center;
@@ -49,7 +77,14 @@
     border: 1px solid black;
     margin: 30px 50% !important;
     height: 300px;
-    transform: translate(-45%); } }
+    transform: translate(-45%); }
+  .kutu.menu {
+    float: left !important;
+    transform: translate(-45%) !important; }
+  .dıs.menu {
+    margin-bottom: 750px !important; }
+  .carousel-container {
+    display: none; } }
 
 @media screen and (max-width: 800px) {
   footer {
@@ -123,7 +158,13 @@
     width: 260px !important; }
   .tnt3 img {
     margin: 0 0 15px 0 !important;
-    padding: 0 0 0 0 !important; } }
+    padding: 0 0 0 0 !important; }
+  .kutu.menu {
+    height: 270px !important; }
+  .dıs.menu {
+    margin-bottom: 700px !important; }
+  .carousel-container {
+    display: none; } }
 
 .alt2 i {
   left: 50%;
@@ -131,7 +172,8 @@
   margin-top: 30px;
   position: relative;
   transform: translate(-50%);
-  color: darkolivegreen; }
+  color: darkolivegreen;
+  opacity: 1; }
 
 .tam {
   width: 100%;
@@ -307,7 +349,7 @@
   background: url("https://source.unsplash.com/JDEEsQKEm7I/1024x768") no-repeat center top/cover; }
 
 .slide:nth-child(6) {
-  background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1600x900") no-repeat center center/cover; }
+  background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1024x768") no-repeat center center/cover; }
 
 .bas {
   height: 500px;
@@ -436,7 +478,7 @@
   height: 450px; }
 
 .carousel-slide img {
-  background: center top/cover; }
+  background: 100% center top/cover; }
 
 #prevbtn {
   position: absolute;
@@ -463,6 +505,42 @@
     bottom: -300px;
     left: 0;
     width: 100%; } }
+
+.carousel-container2 {
+  width: 100%;
+  margin: auto;
+  height: 350px;
+  border: 5px solid black;
+  overflow: hidden;
+  position: relative; }
+
+.carousel-slide2 {
+  display: flex;
+  width: 100%;
+  height: 350px; }
+
+.carousel-slide2 img {
+  background: center top/cover; }
+
+#prevbtn2 {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+  cursor: pointer; }
+
+#nextbtn2 {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+  cursor: pointer; }
 
 .en2 {
   width: 60%;
@@ -520,6 +598,9 @@
   background-color: #dadada;
   margin-left: 75px;
   width: 300px; }
+
+.kutu.menu a {
+  color: darkolivegreen; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;

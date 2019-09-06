@@ -2,6 +2,33 @@
   .openbtn {
     display: none;
   }
+  .carousel-container2 {
+    display: none;
+  }
+  .slide:first-child {
+    background: url('https://source.unsplash.com/t8hTmte4O_g/1600x900')
+      no-repeat center top/cover !important ;
+  }
+  .slide:nth-child(2) {
+    background: url('https://source.unsplash.com/Znvxeud6sDc/1600x900')
+      no-repeat center top/cover !important;
+  }
+  .slide:nth-child(3) {
+    background: url('https://source.unsplash.com/AiHJiRCwB3w/1600x900')
+      no-repeat center top/cover !important;
+  }
+  .slide:nth-child(4) {
+    background: url('https://source.unsplash.com/4nXkhLCrkLo/1600x900')
+      no-repeat center top/cover !important;
+  }
+  .slide:nth-child(5) {
+    background: url('https://source.unsplash.com/JDEEsQKEm7I/1600x900')
+      no-repeat center top/cover !important;
+  }
+  .slide:nth-child(6) {
+    background: url('https://source.unsplash.com/qJ0zGkrE1Zg/1600x900')
+      no-repeat center center/cover !important;
+  }
 }
 
 @include mediaLg {
@@ -10,6 +37,12 @@
     transform: translate(-19%) !important;
   }
   .openbtn {
+    display: none;
+  }
+  .carousel-container {
+    width: 90% !important;
+  }
+  .carousel-container2 {
     display: none;
   }
 }
@@ -60,6 +93,20 @@
   .lnk a {
     margin-left: 38% !important;
   }
+  .lnk2 {
+    margin-top: 140px !important;
+    height: 60px !important;
+  }
+  .lnk2 a {
+    margin-left: 38% !important;
+  }
+  .lnk3 {
+    margin-top: 140px !important;
+    height: 60px !important;
+  }
+  .lnk3 a {
+    margin-left: 38% !important;
+  }
   //iletişim
   .kutu {
     float: left !important;
@@ -71,7 +118,17 @@
     transform: translate(-45%);
   }
   //anamenü
-
+  .kutu.menu {
+    float: left !important;
+    transform: translate(-45%) !important;
+  }
+  .dıs.menu {
+    margin-bottom: 750px !important;
+  }
+  //slider hakkında
+  .carousel-container {
+    display: none;
+  }
 }
 
 @include mediaSm {
@@ -169,5 +226,13 @@
     margin: 0 0 15px 0 !important;
     padding: 0 0 0 0 !important;
   }
-
+  .kutu.menu {
+    height: 270px !important;
+  }
+  .dıs.menu {
+    margin-bottom: 700px !important;
+  }
+  .carousel-container {
+    display: none;
+  }
 }
