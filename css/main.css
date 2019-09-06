@@ -6,7 +6,7 @@
 @media screen and (min-width: 1090px) and (max-width: 1449px) {
   footer h5 {
     margin-left: 9% !important;
-    transform: translate(-9%) !important; }
+    transform: translate(-19%) !important; }
   .openbtn {
     display: none; } }
 
@@ -59,7 +59,7 @@
     float: none !important;
     display: block !important;
     margin-top: 20px;
-    margin-left: 27% !important; }
+    margin-left: 20% !important; }
   .yukarı {
     bottom: 30px !important;
     right: 35px !important;
@@ -116,14 +116,22 @@
     transform: translate(-50%); }
   .kutu h1 {
     margin-left: 16% !important;
-    width: 70% !important; } }
+    width: 70% !important; }
+  .tanıtım img {
+    width: 310px !important; }
+  .tanıtım2 img {
+    width: 260px !important; }
+  .tnt3 img {
+    margin: 0 0 15px 0 !important;
+    padding: 0 0 0 0 !important; } }
 
 .alt2 i {
   left: 50%;
   font-size: 50px;
   margin-top: 30px;
   position: relative;
-  transform: translate(-50%); }
+  transform: translate(-50%);
+  color: darkolivegreen; }
 
 .tam {
   width: 100%;
@@ -373,29 +381,36 @@
 
 .tanıtım > p {
   text-indent: 50px;
-  margin: 0px 0px 0px 300px; }
+  margin: 0px 0px 0px 450px; }
 
 .tanıtım h1 {
   text-align: center; }
 
 .tanıtım img {
   float: left;
-  width: 22%; }
+  width: 390px; }
+
+.tnt2 img {
+  padding: 0 50px 15px 0; }
 
 .tanıtım2 {
   width: 70%;
-  margin: 0 0 0 15%; }
+  margin: 5% 0 5% 15%; }
 
 .tanıtım2 img {
   float: right;
-  width: 22%; }
+  width: 390px; }
+
+.tnt3 img {
+  margin: 0 40px 0 50px;
+  padding: 0 50px 15px 0; }
 
 .tanıtım2 h1 {
   text-align: center; }
 
 .tanıtım2 p {
   text-indent: 50px;
-  margin: 0px 300px 0px 0px; }
+  margin: 50px 0 0px 0px; }
 
 .tanıtım3 {
   width: 70%;
@@ -406,8 +421,7 @@
 
 .tanıtım3 p {
   text-indent: 50px;
-  width: 1200px;
-  margin-bottom: 5%; }
+  margin: 0 0 5% 0; }
 
 .carousel-container {
   width: 77%;
@@ -470,6 +484,42 @@
   left: 9.2%;
   bottom: 100px;
   position: relative; }
+
+.endıs.menu {
+  display: block;
+  text-align: center;
+  position: relative; }
+
+.kutu img {
+  position: relative;
+  height: 93%;
+  width: 100%;
+  margin-top: 1px; }
+
+.dıs.menu {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0;
+  margin-left: 50%;
+  transform: translate(-50%);
+  height: 700px;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.kutu.menu {
+  display: inline-block;
+  vertical-align: center;
+  width: 450px;
+  border: 1px solid black;
+  margin: 30px 10px;
+  height: 300px; }
+
+.kutu.menu h1 {
+  margin: 0;
+  margin-top: -25px;
+  background-color: #dadada;
+  margin-left: 75px;
+  width: 300px; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -601,21 +651,6 @@ ul.menu2 > li:hover ul {
   top: 0;
   transition: all 0.7s ease-in-out 0.3s; }
 
-.sticky img {
-  display: none; }
-
-.sticky .menu-right {
-  transition: all 0.7s;
-  padding-left: 340px; }
-
-.sticky a {
-  color: #000;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 110px; }
-
 .yukarı {
   position: fixed;
   bottom: 20px;
@@ -645,7 +680,7 @@ footer h5 {
   float: left;
   display: block;
   margin-left: 13%;
-  transform: translate(-20%);
+  transform: translate(-10%);
   text-decoration: none;
   text-transform: uppercase; }
 
