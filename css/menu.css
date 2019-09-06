@@ -1,25 +1,4 @@
 @charset "UTF-8";
-.en2 {
-  width: 60%;
-  margin: 0 0 0 20%;
-  background-color: #e4e4e4; }
-
-.en2 ul {
-  width: 100%;
-  margin-left: 3%; }
-
-.en2 li h2 {
-  display: inline;
-  left: 2%;
-  bottom: 100px;
-  position: relative;
-  text-transform: uppercase; }
-
-.en2 li p {
-  left: 9.2%;
-  bottom: 100px;
-  position: relative; }
-
 .endıs.menu {
   display: block;
   text-align: center;
@@ -45,7 +24,6 @@
   display: inline-block;
   vertical-align: center;
   width: 450px;
-  border: 1px solid black;
   margin: 30px 10px;
   height: 300px; }
 
@@ -55,3 +33,67 @@
   background-color: #dadada;
   margin-left: 75px;
   width: 300px; }
+
+.kutu.menu a {
+  color: darkolivegreen; }
+
+.menu.resim {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/98Xi5vMGKck/1140x300") no-repeat center top/cover; }
+
+.menu.resim2 {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/vqTkZZ1JtOU/1140x300") no-repeat center top/cover; }
+
+.menu.resim3 {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/XqYlvd5DGKA/1140x450") no-repeat center top/cover; }
+
+.menu.resim4 {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/LQLIS9AHLZw/1140x500") no-repeat center top/cover; }
+
+.menu.resim5 {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/P9WkD82hLUI/1140x300") no-repeat center top/cover; }
+
+.en3 {
+  margin-left: 50%;
+  transform: translate(-50%);
+  background-color: #e4e4e4;
+  display: block;
+  text-align: center;
+  position: relative; }
+
+.tntt.menu {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  margin-left: 50%;
+  transform: translate(-50%); }
+
+.kutuu.blm {
+  display: inline-block;
+  vertical-align: center;
+  width: 450px;
+  margin: 30px 10px; }
+
+.kutuu.blm h1 {
+  margin: 0;
+  padding: 0; }
+
+.yazı2 {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15%; }
+
+.yazı a {
+  color: darkolivegreen; }

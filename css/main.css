@@ -1,14 +1,36 @@
 @charset "UTF-8";
 @media screen and (min-width: 1450px) {
   .openbtn {
-    display: none; } }
+    display: none; }
+  .carousel-container2 {
+    display: none; }
+  .slide:first-child {
+    background: url("https://source.unsplash.com/t8hTmte4O_g/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(2) {
+    background: url("https://source.unsplash.com/Znvxeud6sDc/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(3) {
+    background: url("https://source.unsplash.com/AiHJiRCwB3w/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(4) {
+    background: url("https://source.unsplash.com/4nXkhLCrkLo/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(5) {
+    background: url("https://source.unsplash.com/JDEEsQKEm7I/1600x900") no-repeat center top/cover !important; }
+  .slide:nth-child(6) {
+    background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1600x900") no-repeat center center/cover !important; } }
 
 @media screen and (min-width: 1090px) and (max-width: 1449px) {
   footer h5 {
     margin-left: 9% !important;
     transform: translate(-19%) !important; }
   .openbtn {
-    display: none; } }
+    display: none; }
+  .carousel-container {
+    width: 90% !important; }
+  .carousel-container2 {
+    display: none; }
+  .menu.resim {
+    height: 300px;
+    width: 100%;
+    background: url("https://source.unsplash.com/98Xi5vMGKck/1140x300") no-repeat center top/cover; } }
 
 @media screen and (min-width: 801px) and (max-width: 1089px) {
   ul.menu2 > li {
@@ -42,6 +64,16 @@
     height: 60px !important; }
   .lnk a {
     margin-left: 38% !important; }
+  .lnk2 {
+    margin-top: 140px !important;
+    height: 60px !important; }
+  .lnk2 a {
+    margin-left: 38% !important; }
+  .lnk3 {
+    margin-top: 140px !important;
+    height: 60px !important; }
+  .lnk3 a {
+    margin-left: 38% !important; }
   .kutu {
     float: left !important;
     vertical-align: center;
@@ -49,7 +81,14 @@
     border: 1px solid black;
     margin: 30px 50% !important;
     height: 300px;
-    transform: translate(-45%); } }
+    transform: translate(-45%); }
+  .kutu.menu {
+    float: left !important;
+    transform: translate(-45%) !important; }
+  .dıs.menu {
+    margin-bottom: 750px !important; }
+  .carousel-container {
+    display: none; } }
 
 @media screen and (max-width: 800px) {
   footer {
@@ -123,7 +162,13 @@
     width: 260px !important; }
   .tnt3 img {
     margin: 0 0 15px 0 !important;
-    padding: 0 0 0 0 !important; } }
+    padding: 0 0 0 0 !important; }
+  .kutu.menu {
+    height: 270px !important; }
+  .dıs.menu {
+    margin-bottom: 700px !important; }
+  .carousel-container {
+    display: none; } }
 
 .alt2 i {
   left: 50%;
@@ -131,7 +176,8 @@
   margin-top: 30px;
   position: relative;
   transform: translate(-50%);
-  color: darkolivegreen; }
+  color: darkolivegreen;
+  opacity: 1; }
 
 .tam {
   width: 100%;
@@ -307,7 +353,7 @@
   background: url("https://source.unsplash.com/JDEEsQKEm7I/1024x768") no-repeat center top/cover; }
 
 .slide:nth-child(6) {
-  background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1600x900") no-repeat center center/cover; }
+  background: url("https://source.unsplash.com/qJ0zGkrE1Zg/1024x768") no-repeat center center/cover; }
 
 .bas {
   height: 500px;
@@ -356,7 +402,8 @@
   margin-top: -25px;
   background-color: #dadada;
   margin-left: 75px;
-  width: 300px; }
+  width: 300px;
+  color: darkolivegreen; }
 
 .yazı {
   display: block;
@@ -436,7 +483,7 @@
   height: 450px; }
 
 .carousel-slide img {
-  background: center top/cover; }
+  background: 100% center top/cover; }
 
 #prevbtn {
   position: absolute;
@@ -464,26 +511,41 @@
     left: 0;
     width: 100%; } }
 
-.en2 {
-  width: 60%;
-  margin: 0 0 0 20%;
-  background-color: #e4e4e4; }
-
-.en2 ul {
+.carousel-container2 {
   width: 100%;
-  margin-left: 3%; }
-
-.en2 li h2 {
-  display: inline;
-  left: 2%;
-  bottom: 100px;
-  position: relative;
-  text-transform: uppercase; }
-
-.en2 li p {
-  left: 9.2%;
-  bottom: 100px;
+  margin: auto;
+  height: 350px;
+  border: 5px solid black;
+  overflow: hidden;
   position: relative; }
+
+.carousel-slide2 {
+  display: flex;
+  width: 100%;
+  height: 350px; }
+
+.carousel-slide2 img {
+  background: center top/cover; }
+
+#prevbtn2 {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+  cursor: pointer; }
+
+#nextbtn2 {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+  cursor: pointer; }
 
 .endıs.menu {
   display: block;
@@ -510,7 +572,6 @@
   display: inline-block;
   vertical-align: center;
   width: 450px;
-  border: 1px solid black;
   margin: 30px 10px;
   height: 300px; }
 
@@ -520,6 +581,59 @@
   background-color: #dadada;
   margin-left: 75px;
   width: 300px; }
+
+.kutu.menu a {
+  color: darkolivegreen; }
+
+.menu.resim {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/98Xi5vMGKck/1140x300") no-repeat center top/cover; }
+
+.menu.resim2 {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/vqTkZZ1JtOU/1140x300") no-repeat center top/cover; }
+
+.menu.resim3 {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/XqYlvd5DGKA/1140x450") no-repeat center top/cover; }
+
+.menu.resim4 {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/LQLIS9AHLZw/1140x500") no-repeat center top/cover; }
+
+.menu.resim5 {
+  height: 300px;
+  width: 100%;
+  background: url("https://source.unsplash.com/P9WkD82hLUI/1140x300") no-repeat center top/cover; }
+
+.en3 {
+  margin-left: 50%;
+  transform: translate(-50%);
+  background-color: #e4e4e4;
+  display: block;
+  text-align: center;
+  position: relative; }
+
+.tntt.menu {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  margin-left: 50%;
+  transform: translate(-50%); }
+
+.kutuu.blm {
+  display: inline-block;
+  vertical-align: center;
+  width: 450px;
+  margin: 30px 10px; }
+
+.kutuu.blm h1 {
+  margin: 0;
+  padding: 0; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
