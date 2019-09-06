@@ -1,9 +1,4 @@
 @charset "UTF-8";
-.en2 {
-  width: 60%;
-  margin: 0 0 0 20%;
-  background-color: #e4e4e4; }
-
 .endıs.menu {
   display: block;
   text-align: center;
@@ -68,8 +63,8 @@
   background: url("https://source.unsplash.com/P9WkD82hLUI/1140x300") no-repeat center top/cover; }
 
 .en3 {
-  width: 60%;
-  margin: 0 0 0 20%;
+  margin-left: 50%;
+  transform: translate(-50%);
   background-color: #e4e4e4;
   display: block;
   text-align: center;
@@ -78,7 +73,9 @@
 .tntt.menu {
   max-width: 1400px;
   width: 100%;
-  margin: auto; }
+  margin: auto;
+  margin-left: 50%;
+  transform: translate(-50%); }
 
 .kutuu.blm {
   display: inline-block;
@@ -89,3 +86,14 @@
 .kutuu.blm h1 {
   margin: 0;
   padding: 0; }
+
+.yazı2 {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15%; }
+
+.yazı a {
+  color: darkolivegreen; }

@@ -26,7 +26,11 @@
   .carousel-container {
     width: 90% !important; }
   .carousel-container2 {
-    display: none; } }
+    display: none; }
+  .menu.resim {
+    height: 300px;
+    width: 100%;
+    background: url("https://source.unsplash.com/98Xi5vMGKck/1140x300") no-repeat center top/cover; } }
 
 @media screen and (min-width: 801px) and (max-width: 1089px) {
   ul.menu2 > li {
@@ -543,11 +547,6 @@
   opacity: 1;
   cursor: pointer; }
 
-.en2 {
-  width: 60%;
-  margin: 0 0 0 20%;
-  background-color: #e4e4e4; }
-
 .endıs.menu {
   display: block;
   text-align: center;
@@ -612,8 +611,8 @@
   background: url("https://source.unsplash.com/P9WkD82hLUI/1140x300") no-repeat center top/cover; }
 
 .en3 {
-  width: 60%;
-  margin: 0 0 0 20%;
+  margin-left: 50%;
+  transform: translate(-50%);
   background-color: #e4e4e4;
   display: block;
   text-align: center;
@@ -622,7 +621,9 @@
 .tntt.menu {
   max-width: 1400px;
   width: 100%;
-  margin: auto; }
+  margin: auto;
+  margin-left: 50%;
+  transform: translate(-50%); }
 
 .kutuu.blm {
   display: inline-block;
