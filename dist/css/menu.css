@@ -63,8 +63,8 @@
   background: url("https://source.unsplash.com/P9WkD82hLUI/1140x300") no-repeat center top/cover; }
 
 .en3 {
-  margin-left: 50%;
-  transform: translate(-50%);
+  width: 70%;
+  margin: 0 0 0 15%;
   background-color: #e4e4e4;
   display: block;
   text-align: center;
@@ -80,20 +80,9 @@
 .kutuu.blm {
   display: inline-block;
   vertical-align: center;
-  width: 450px;
-  margin: 30px 10px; }
+  width: 40%;
+  margin: 30px 40px; }
 
 .kutuu.blm h1 {
-  margin: 0;
-  padding: 0; }
-
-.yazı2 {
-  display: block;
-  padding: 10px 20px 10px 20px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  margin-top: 15%; }
-
-.yazı a {
-  color: darkolivegreen; }
+  padding: 0;
+  margin: 0; }
