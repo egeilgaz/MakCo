@@ -227,17 +227,3 @@ function closenav() {
   document.getElementById('nav').style.height = '0%';
 }
 
-const openbtn = document.querySelector('.openbtn');
-let showMenu = false;
-
-openbtn.addEventListener('click', toggleMenu);
-
-function toggleMenu() {
-  if (!showmenu) {
-    openbtn.classList.add('close');
-    showmenu = true;
-  } else {
-    openbtn.classList.remove('close');
-    showMenu = false;
-  }
-}
