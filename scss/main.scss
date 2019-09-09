@@ -125,18 +125,6 @@ ul.menu2 > li:hover ul {
   z-index: 2;
 }
 
-.sticky {
-  position: fixed;
-  height: 130px;
-  width: 100%;
-  color: #f4f4f4;
-  min-height: 60px;
-  background-color: #f5deb3;
-  opacity: 0.95;
-  z-index: 2;
-  top: 0;
-  transition: all 0.7s ease-in-out 0.3s;
-}
 .yukarı {
   position: fixed;
   bottom: 20px;

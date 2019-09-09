@@ -2,6 +2,9 @@
   .openbtn {
     display: none;
   }
+  .overlay {
+    display: none;
+  }
   .carousel-container2 {
     display: none;
   }
@@ -42,6 +45,9 @@
   .openbtn {
     display: none;
   }
+  .overlay {
+    display: none;
+  }
   .carousel-container {
     width: 90% !important;
   }
@@ -68,6 +74,7 @@
   footer h5 {
     margin-left: 3% !important;
     transform: translate(-3%) !important;
+    position: relative;
   }
   footer {
     height: 150px !important;
@@ -82,6 +89,9 @@
   }
   //hamburger
   .openbtn {
+    display: none;
+  }
+  .overlay {
     display: none;
   }
   //altaki 3lü
@@ -253,5 +263,25 @@
   .kutuu.blm h1 {
     margin-left: -50% !important;
     transform: translate(0%) !important;
+  }
+  .menu.resim {
+    background: url('https://source.unsplash.com/98Xi5vMGKck/') no-repeat center
+      top/cover !important;
+  }
+  .menu.resim2 {
+    background: url('https://source.unsplash.com/vqTkZZ1JtOU/') no-repeat center
+      top/cover !important;
+  }
+  .menu.resim3 {
+    background: url('https://source.unsplash.com/XqYlvd5DGKA/') no-repeat center
+      top/cover !important;
+  }
+  .menu.resim4 {
+    background: url('https://source.unsplash.com/LQLIS9AHLZw/') no-repeat center
+      top/cover !important;
+  }
+  .menu.resim5 {
+    background: url('https://source.unsplash.com/P9WkD82hLUI/') no-repeat center
+      top/cover !important;
   }
 }
